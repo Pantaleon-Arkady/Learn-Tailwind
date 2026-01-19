@@ -18,4 +18,8 @@
     .main_content {
         @apply w-full;
     }
+
+    .mobile_nav_button {
+        @apply block;
+    }
 }
