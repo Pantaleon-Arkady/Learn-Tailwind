@@ -28,11 +28,12 @@ It is intentionally simple and focused on styling.
 
 ```text
 /
-├── index.html              # Main playground / general styling page
-├── templates/              # Individual UI templates
-│   ├── template-1.html
-│   ├── template-2.html
-│   ├── template-3.html
-│   ├── template-....html
-├── assets/
-└── README.md
+    my-tailwind-app/
+    ├── index.html              # Main playground / general styling page
+    ├── templates/              # Individual UI templates
+    │   ├── template-1.html
+    │   ├── template-2.html
+    │   ├── template-3.html
+    │   ├── template-....html
+    ├── assets/
+    └── README.md
