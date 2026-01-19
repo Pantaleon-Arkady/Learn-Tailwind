@@ -9,20 +9,29 @@
 </head>
 
 <body class="flex flex-col bg-gray-200 text-black">
+
+    <!-- HEADING -->
     <div class="general_div_style w-full min-h-20 flex flex-row justify-between items-center">
         <h1 class="text-2xl font-bold">Heading</h1>
-        <button class="mobile_nav_button border border-black hidden">
+        <button class="mobile_nav_button border border-black hidden" id="open-mobile-nav">
             <img src="public/three-vertical-dots.svg" />
         </button>
     </div>
+
+    <!-- MAIN BODY DIV -->
     <div class="general_div_style w-full flex flex-row">
+
+        <!-- LEFT NAV !!!DESKTOP -->
         <div class="general_div_style left_nav w-1/5">
             Left
         </div>
+
+        <!-- MAIN CONTENT -->
         <div class="general_div_style main_content w-4/5">
             Right
         </div>
     </div>
+
     <script type="module" src="/src/main.js"></script>
 </body>
 
