@@ -22,4 +22,8 @@
     .mobile_nav_button {
         @apply block;
     }
+
+    #mobile-nav-dialog::backdrop {
+        background-color: rgba(0, 0, 0, 0.55);
+    }
 }
